@@ -11,6 +11,11 @@ import { Link } from "react-router-dom";
 
 const Menu = () => {
   const [openMenu, setOpenMenu] = useState(false);
+  const [selectedIndex, setSelectedIndex] = useState(1);
+
+  const handleListItemClick = (event, index) => {
+    setSelectedIndex(index);
+  };
 
   const toggleDrawer = (open) => (event) => {
     if (
@@ -31,7 +36,11 @@ const Menu = () => {
     >
       <List className="List-color">
         <Link to="/home">
-          <ListItem button>
+          <ListItem
+            button
+            selected={selectedIndex === 0}
+            onClick={(event) => handleListItemClick(event, 0)}
+          >
             <svg
               width="1em"
               height="1em"
@@ -53,7 +62,11 @@ const Menu = () => {
           </ListItem>
         </Link>
         <Link to="/wishes">
-          <ListItem button>
+          <ListItem
+            button
+            selected={selectedIndex === 1}
+            onClick={(event) => handleListItemClick(event, 1)}
+          >
             <svg
               width="1em"
               height="1em"
@@ -71,7 +84,11 @@ const Menu = () => {
           </ListItem>
         </Link>
         <Link to="/memos">
-          <ListItem button>
+          <ListItem
+            button
+            selected={selectedIndex === 2}
+            onClick={(event) => handleListItemClick(event, 2)}
+          >
             <svg
               width="1em"
               height="1em"
@@ -93,7 +110,11 @@ const Menu = () => {
           </ListItem>
         </Link>
         <Link to="/presents">
-          <ListItem button>
+          <ListItem
+            button
+            selected={selectedIndex === 3}
+            onClick={(event) => handleListItemClick(event, 3)}
+          >
             <svg
               width="1em"
               height="1em"
@@ -114,7 +135,11 @@ const Menu = () => {
       <Divider />
       <List className="List-color">
         <Link to="/foryou">
-          <ListItem button>
+          <ListItem
+            button
+            selected={selectedIndex === 4}
+            onClick={(event) => handleListItemClick(event, 4)}
+          >
             <svg
               width="1em"
               height="1em"
@@ -132,7 +157,11 @@ const Menu = () => {
           </ListItem>
         </Link>
         <Link to="/bts&spoilers">
-          <ListItem button>
+          <ListItem
+            button
+            selected={selectedIndex === 5}
+            onClick={(event) => handleListItemClick(event, 5)}
+          >
             <svg
               width="1em"
               height="1em"
