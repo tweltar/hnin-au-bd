@@ -1,0 +1,36 @@
+.Home {
+  background-image: url(../assets/cover.jpg);
+  background-color: black;
+  background-size: cover;
+  filter: brightness(60%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+
+.Title {
+  font-size: 500%;
+  font-family: "Poiret One", cursive;
+  padding: 0 1.5vw;
+  margin: 0;
+}
+
+.About {
+  padding: 20px 1.5vw;
+  font-size: 150%;
+  font-family: "Cormorant Garamond", serif;
+}
+
+@media only screen and (max-width: 500px) {
+  .Home {
+    background-position: center;
+    background-repeat: repeat;
+    background-size: contain;
+  }
+
+  .Title {
+    font-size: 250%;
+  }
+}
