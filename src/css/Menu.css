@@ -1,0 +1,31 @@
+.Menu {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 99;
+}
+
+.list {
+  width: 250px;
+}
+
+.List-color > * {
+  color: black;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 1.3rem;
+}
+
+.menuicon {
+  width: 40px;
+  height: 40px;
+}
+
+@media only screen and (max-width: 500px) {
+  .menuicon {
+    width: 30px;
+    height: 30px;
+  }
+}
