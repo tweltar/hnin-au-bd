@@ -33,4 +33,9 @@
   .Title {
     font-size: 250%;
   }
+
+  .About {
+    padding: 0 1.5vw;
+    font-size: 150%;
+  }
 }
