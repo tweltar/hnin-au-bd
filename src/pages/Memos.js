@@ -163,13 +163,23 @@ const Memos = () => {
             className="Carousal-image-vertical"
           >
             <Carousel.Item>
-              <img className="d-block w-100" src={Teenage5} alt="" />
+              <img
+                className="d-block w-100"
+                style={{ height: "550px" }}
+                src={Teenage5}
+                alt=""
+              />
               <Carousel.Caption className="p-0">
                 <p>description hello hii heyy desu</p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block w-100" src={Teenage4} alt="" />
+              <img
+                className="d-block w-100"
+                style={{ height: "550px" }}
+                src={Teenage4}
+                alt=""
+              />
               <Carousel.Caption className="p-0">
                 <p>description</p>
               </Carousel.Caption>
