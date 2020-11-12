@@ -25,9 +25,15 @@ import Teenage14 from "../assets/teenage/Teenage14.jpg";
 import Teenage15 from "../assets/teenage/Teenage15.jpg";
 import Teenage16 from "../assets/teenage/Teenage16.jpeg";
 import Teenage17 from "../assets/teenage/Teenage17.jpeg";
+import qua1 from "../assets/quaratine/qua1.jpg";
+import qua2 from "../assets/quaratine/qua2.jpg";
+import qua3 from "../assets/quaratine/qua3.jpg";
+import qua4 from "../assets/quaratine/qua4.jpg";
+import qua5 from "../assets/quaratine/qua5.jpeg";
 import { Carousel } from "react-bootstrap";
 import SubHeader from "../components/SubHeader";
 import PhotoSection from "../components/PhotoSection";
+import Next from "../components/Next";
 
 const Memos = () => {
   const [index, setIndex] = useState(0);
@@ -70,17 +76,7 @@ const Memos = () => {
         <PhotoSection image={childhood9} text="hello world" />
         <div className="Photo-section">
           <p className="Memo-caption"></p>
-          <img
-            src={childhood1}
-            style={{
-              width: "400px",
-              height: "500px",
-              borderRadius: "10px",
-              marginLeft: "100px",
-              transform: "rotate(3deg)",
-            }}
-            alt=""
-          />
+          <img src={childhood1} className="Vertical-image" alt="" />
         </div>
         <div className="Photo-section">
           <Carousel
@@ -156,17 +152,7 @@ const Memos = () => {
           </Carousel>
         </div>
         <div className="Photo-section">
-          <img
-            src={Teenage16}
-            style={{
-              width: "400px",
-              height: "600px",
-              borderRadius: "10px",
-              marginLeft: "100px",
-              transform: "rotate(-3deg)",
-            }}
-            alt=""
-          />
+          <img src={Teenage16} className="Vertical-image" alt="" />
           <p className="Memo-caption"></p>
         </div>
         <PhotoSection image={Teenage3} text="hello world" odd />
@@ -183,12 +169,7 @@ const Memos = () => {
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img
-                className="d-block w-100"
-                style={{ height: "600px" }}
-                src={Teenage4}
-                alt=""
-              />
+              <img className="d-block w-100" src={Teenage4} alt="" />
               <Carousel.Caption className="p-0">
                 <p>description</p>
               </Carousel.Caption>
@@ -222,17 +203,7 @@ const Memos = () => {
           </Carousel>
         </div>
         <div className="Photo-section">
-          <img
-            src={Teenage17}
-            style={{
-              width: "420px",
-              height: "580px",
-              borderRadius: "10px",
-              marginLeft: "100px",
-              transform: "rotate(-3deg)",
-            }}
-            alt=""
-          />
+          <img src={Teenage17} className="Vertical-image" alt="" />
           <p className="Memo-caption"></p>
         </div>
         <div className="Photo-section">
@@ -257,37 +228,29 @@ const Memos = () => {
           </Carousel>
         </div>
         <div className="Photo-section">
-          <img
-            src={Teenage14}
-            style={{
-              width: "420px",
-              height: "580px",
-              borderRadius: "10px",
-              marginLeft: "100px",
-              transform: "rotate(-3deg)",
-            }}
-            alt=""
-          />
+          <img src={Teenage14} className="Vertical-image" alt="" />
           <p className="Memo-caption"></p>
         </div>
         <div className="Photo-section">
           <p className="Memo-caption"></p>
-          <img
-            src={Teenage15}
-            style={{
-              width: "400px",
-              height: "600px",
-              borderRadius: "10px",
-              marginLeft: "100px",
-              transform: "rotate(3deg)",
-            }}
-            alt=""
-          />
+          <img src={Teenage15} className="Vertical-image" alt="" />
         </div>
       </div>
       <div>
         <SubHeader id="Quaratine" text="Quaratine Memos" />
+        <div className="Photo-section">
+          <img src={qua1} className="Vertical-image" alt="" />
+          <p className="Memo-caption"></p>
+        </div>
+        <div className="Photo-section">
+          <p className="Memo-caption"></p>
+          <img src={qua2} className="Vertical-image" alt="" />
+        </div>
+        <PhotoSection image={qua3} text="hello world" />
+        <PhotoSection image={qua4} text="hello world" odd />
+        <PhotoSection image={qua5} text="hello world" />
       </div>
+      <Next to="presents" />
     </div>
   );
 };
