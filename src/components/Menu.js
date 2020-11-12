@@ -11,7 +11,7 @@ import { Link } from "react-router-dom";
 
 const Menu = () => {
   const [openMenu, setOpenMenu] = useState(false);
-  const [selectedIndex, setSelectedIndex] = useState(1);
+  const [selectedIndex, setSelectedIndex] = useState(0);
 
   const handleListItemClick = (event, index) => {
     setSelectedIndex(index);
@@ -156,7 +156,7 @@ const Menu = () => {
             <ListItemText primary="For You" />
           </ListItem>
         </Link>
-        <Link to="/bts&spoilers">
+        <Link to="/spoiler">
           <ListItem
             button
             selected={selectedIndex === 5}
