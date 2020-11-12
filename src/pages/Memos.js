@@ -32,7 +32,7 @@ import qua4 from "../assets/quaratine/qua4.jpg";
 import qua5 from "../assets/quaratine/qua5.jpeg";
 import { Carousel } from "react-bootstrap";
 import SubHeader from "../components/SubHeader";
-import PhotoSection from "../components/PhotoSection";
+import PhotoSectionH from "../components/PhotoSectionH";
 import Next from "../components/Next";
 
 const Memos = () => {
@@ -72,8 +72,8 @@ const Memos = () => {
       <h1 className="Page-Title">Our Memories</h1>
       <div>
         <SubHeader id="Childhood" text="Childhood Memos" />
-        <PhotoSection image={childhood3} text="hello world" odd />
-        <PhotoSection image={childhood9} text="hello world" />
+        <PhotoSectionH image={childhood3} text="hello world" odd />
+        <PhotoSectionH image={childhood9} text="hello world" />
         <div className="Photo-section">
           <p className="Memo-caption"></p>
           <img src={childhood1} className="Vertical-image" alt="" />
@@ -126,7 +126,7 @@ const Memos = () => {
             </Carousel.Item>
           </Carousel>
         </div>
-        <PhotoSection image={childhood2} text="hello world" />
+        <PhotoSectionH image={childhood2} text="hello world" />
       </div>
       <div>
         <SubHeader id="Teenage" text="Teenage Memos" />
@@ -155,7 +155,7 @@ const Memos = () => {
           <img src={Teenage16} className="Vertical-image" alt="" />
           <p className="Memo-caption"></p>
         </div>
-        <PhotoSection image={Teenage3} text="hello world" odd />
+        <PhotoSectionH image={Teenage3} text="hello world" odd />
         <div className="Photo-section">
           <Carousel
             activeIndex={index3}
@@ -177,10 +177,10 @@ const Memos = () => {
           </Carousel>
           <p></p>
         </div>
-        <PhotoSection image={Teenage6} text="hello world" odd />
-        <PhotoSection image={Teenage7} text="hello world" />
-        <PhotoSection image={Teenage8} text="hello world" odd />
-        <PhotoSection image={Teenage9} text="hello world" />
+        <PhotoSectionH image={Teenage6} text="hello world" odd />
+        <PhotoSectionH image={Teenage7} text="hello world" />
+        <PhotoSectionH image={Teenage8} text="hello world" odd />
+        <PhotoSectionH image={Teenage9} text="hello world" />
         <div className="Photo-section">
           <p></p>
           <Carousel
@@ -246,9 +246,9 @@ const Memos = () => {
           <p className="Memo-caption"></p>
           <img src={qua2} className="Vertical-image" alt="" />
         </div>
-        <PhotoSection image={qua3} text="hello world" />
-        <PhotoSection image={qua4} text="hello world" odd />
-        <PhotoSection image={qua5} text="hello world" />
+        <PhotoSectionH image={qua3} text="hello world" />
+        <PhotoSectionH image={qua4} text="hello world" odd />
+        <PhotoSectionH image={qua5} text="hello world" />
       </div>
       <Next to="presents" />
     </div>
