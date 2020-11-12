@@ -13,6 +13,10 @@
   color: black;
 }
 
+.List-color > *:hover {
+  color: black;
+}
+
 .icon {
   margin-right: 10px;
   font-size: 1.3rem;
