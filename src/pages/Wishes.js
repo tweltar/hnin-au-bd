@@ -3,6 +3,7 @@ import "../css/Wishes.css";
 import wish3 from "../assets/wishes/wish3.png";
 import wish1 from "../assets/wishes/wish1.png";
 import wish2 from "../assets/wishes/wish2.png";
+import Next from "../components/Next";
 
 const Wishes = () => {
   return (
@@ -128,6 +129,8 @@ const Wishes = () => {
           </span>
         </p>
       </div>
+      <br />
+      <Next to="memos" />
     </div>
   );
 };
