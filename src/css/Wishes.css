@@ -1,0 +1,64 @@
+.Jue,
+.Twel,
+.Yumi {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.Jue-paper,
+.Yumi-paper,
+.Twel-paper {
+  width: 1000px;
+  height: 900px;
+}
+
+.Jue-letter {
+  position: absolute;
+  margin: 130px 25vw;
+  padding: 10px;
+  color: black;
+  font-family: "Dancing Script", cursive;
+  font-size: 110%;
+}
+
+.Twel-letter {
+  position: absolute;
+  margin: 130px 25vw;
+  padding: 10px;
+  color: black;
+  font-family: "Charm", cursive;
+  font-size: larger;
+}
+
+.Yumi-letter {
+  position: absolute;
+  margin: 130px 25vw;
+  padding: 10px;
+  color: black;
+  font-family: "Rochester", cursive;
+  font-size: x-large;
+}
+
+@media only screen and (max-width: 500px) {
+  .Jue-paper {
+    width: 100%;
+    height: 1200px;
+  }
+
+  .Jue-letter {
+    margin: 150px 7vw;
+    padding: 50px 20px;
+    color: black;
+    font-family: "Dancing Script", cursive;
+    font-size: 85%;
+  }
+
+  .Yumi-paper {
+    width: 100%;
+  }
+
+  .Twel-paper {
+    width: 100%;
+  }
+}
