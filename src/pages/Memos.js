@@ -196,7 +196,7 @@ const Memos = () => {
           <Carousel
             activeIndex={index4}
             onSelect={handleSelect4}
-            className="Carousal-image-vertical"
+            className="Carousal-image"
           >
             <Carousel.Item>
               <img className="d-block w-100" src={Teenage10} alt="" />
@@ -221,7 +221,7 @@ const Memos = () => {
           <Carousel
             activeIndex={index5}
             onSelect={handleSelect5}
-            className="Carousal-image-vertical"
+            className="Carousal-image"
           >
             <Carousel.Item>
               <img className="d-block w-100" src={Teenage12} alt="" />
