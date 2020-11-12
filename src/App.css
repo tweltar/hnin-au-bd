@@ -10,10 +10,13 @@ body {
 
 a {
   text-decoration: none;
+  color: white;
+  transition: all 200ms ease-in-out;
 }
 
 a:hover {
   text-decoration: none;
+  color: gray;
 }
 
 .App {
