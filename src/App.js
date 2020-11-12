@@ -6,7 +6,7 @@ import Memos from "./pages/Memos";
 import Presents from "./pages/Presents";
 import ForYou from "./pages/ForYou";
 import Menu from "./components/Menu";
-import BTSSpoilers from "./pages/BTSSpoilers";
+import Spoiler from "./pages/Spoiler";
 
 const App = () => {
   return (
@@ -32,7 +32,7 @@ const App = () => {
           <Route exact path="/foryou" component={ForYou} />
         </Switch>
         <Switch>
-          <Route exact path="/btsspoilers" component={BTSSpoilers} />
+          <Route exact path="/spoiler" component={Spoiler} />
         </Switch>
       </Router>
     </div>
