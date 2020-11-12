@@ -14,7 +14,7 @@ const HomePage = () => {
           your 20th birthday...
           <br /> So, we came up with this idea - a birthday webpage gift for
           you. <br /> Cheer up, girl! Stay safe and let's hang out together
-          after this crisis. We do hope you love this, and made you smile{" "}
+          after this crisis. We do hope you love this, and made you smile
           <span style={{ fontSize: "90%" }}>&#128150;</span>
         </p>
       </div>
@@ -44,12 +44,12 @@ const HomePage = () => {
             width="1em"
             height="1em"
             viewBox="0 0 16 16"
-            class="bi bi-arrow-down-short"
+            className="bi bi-arrow-down-short"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"
             />
           </svg>
@@ -59,12 +59,12 @@ const HomePage = () => {
             width="1em"
             height="1em"
             viewBox="0 0 16 16"
-            class="bi bi-arrow-down-short"
+            className="bi bi-arrow-down-short"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"
             />
           </svg>
@@ -75,12 +75,12 @@ const HomePage = () => {
             width="1em"
             height="1em"
             viewBox="0 0 16 16"
-            class="bi bi-arrow-down-short"
+            className="bi bi-arrow-down-short"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"
             />
           </svg>
@@ -91,12 +91,12 @@ const HomePage = () => {
             width="1em"
             height="1em"
             viewBox="0 0 16 16"
-            class="bi bi-arrow-down-short"
+            className="bi bi-arrow-down-short"
             fill="currentColor"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              fill-rule="evenodd"
+              fillRule="evenodd"
               d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"
             />
           </svg>
@@ -104,7 +104,11 @@ const HomePage = () => {
           <Link to="spoiler">BTS & Spoiler</Link>, <br />
           <br /> as shown in the menu in the top right corner of the page.
           <br />
-          Or, <br /> you can just click
+          <br />
+          Or,
+          <br /> <br /> you can just click
+          <br />
+          <br />
           <span
             className="Next"
             style={{ width: "fit-content", margin: "0 20px", fontSize: "80%" }}
@@ -122,8 +126,10 @@ const HomePage = () => {
                 fillRule="evenodd"
                 d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
               />
-            </svg>{" "}
-          </span>{" "}
+            </svg>
+          </span>
+          <br />
+          <br />
           at the end of every page.
           <br />
           <br />
