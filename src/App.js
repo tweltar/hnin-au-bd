@@ -6,10 +6,9 @@ import Memos from "./pages/Memos";
 import Presents from "./pages/Presents";
 import ForYou from "./pages/ForYou";
 import Menu from "./components/Menu";
-import BTSSpoilers from "./pages/BTS&Spoilers";
-// import BTSSpoilers from "./components/BTS&Spoilers";
+import BTSSpoilers from "./pages/BTSSpoilers";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Router>
@@ -33,11 +32,11 @@ function App() {
           <Route exact path="/foryou" component={ForYou} />
         </Switch>
         <Switch>
-          <Route exact path="/bts&spoilers" component={BTSSpoilers} />
+          <Route exact path="/btsspoilers" component={BTSSpoilers} />
         </Switch>
       </Router>
     </div>
   );
-}
+};
 
 export default App;
