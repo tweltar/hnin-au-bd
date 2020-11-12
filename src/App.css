@@ -12,6 +12,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .App {
   position: relative;
 }
@@ -49,7 +53,7 @@ a {
 
 .Vertical-image {
   width: 400px;
-  height: 500px;
+  height: 520px;
   border-radius: 10px;
   margin-left: 100px;
   transform: rotate(3deg);
@@ -102,6 +106,15 @@ a {
   color: rgb(151, 151, 151);
   border: 1px solid rgb(151, 151, 151);
   text-decoration: none;
+}
+
+.ForYou-caption {
+  font-family: "Sevillana", cursive;
+  font-size: x-large;
+  letter-spacing: 2pt;
+  text-align: center;
+  width: 50%;
+  align-self: center;
 }
 
 @media only screen and (max-width: 500px) {
