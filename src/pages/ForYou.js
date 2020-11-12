@@ -49,7 +49,7 @@ const ForYou = () => {
       />
       <div className="Photo-section">
         <p className="ForYou-caption">
-          You’re the sunshine of the day and the moonlight of the night
+          You’re the sunshine of the day and the moonlight of the night.
         </p>
         <Carousel
           activeIndex={index}
@@ -74,7 +74,7 @@ const ForYou = () => {
       <PhotoSectionH
         image={fav1}
         cls="ForYou-caption"
-        text="Meeting you was fate, becoming your friend was a choice. But being best friend for 6 years is a fortune."
+        text="Meeting you was fate, becoming your friend was a choice. But, being best friends for 6 years is a fortune."
       />
       <PhotoSectionV
         image={fav2}
@@ -85,7 +85,7 @@ const ForYou = () => {
       <PhotoSectionV
         image={fav4}
         cls="ForYou-caption"
-        text="My parents told me Angels aren’t real but why are you here?"
+        text="My parents told me 'Angels only live in heaven' but why are you here?"
       />
       <PhotoSectionV
         image={fav8}
@@ -97,12 +97,12 @@ const ForYou = () => {
         <Carousel
           activeIndex={index1}
           onSelect={handleSelect1}
-          style={{ height: "600px", width: "450px", marginLeft: "50px" }}
+          className="Carousal-image-vertical"
         >
           <Carousel.Item>
             <img
               className="d-block w-100"
-              style={{ height: "600px" }}
+              style={{ height: "550px" }}
               src={fav6}
               alt=""
             />
@@ -113,7 +113,7 @@ const ForYou = () => {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              style={{ height: "600px" }}
+              style={{ height: "550px" }}
               src={fav11}
               alt=""
             />
@@ -124,8 +124,8 @@ const ForYou = () => {
           </Carousel.Item>
         </Carousel>
         <p className="ForYou-caption">
-          Like a cold breeze in summer, fire in winter, you are the comfort to
-          my bitter / disorder.
+          Like a cold breeze in summer and fire in winter, you are the comfort
+          to my disorder.
         </p>
       </div>
       <PhotoSectionV
@@ -139,7 +139,7 @@ const ForYou = () => {
         cls="ForYou-caption"
         text="The moon and the stars don’t glow as bright as your eyes."
       />
-      <Next to="/btsspoilers" />
+      <Next to="spoiler" />
     </div>
   );
 };
