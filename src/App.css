@@ -47,11 +47,21 @@ a {
   border-radius: 10px;
 }
 
-.Memo-image:nth-child(odd) {
+.Vertical-image {
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  margin-left: 100px;
+  transform: rotate(3deg);
+}
+
+.Memo-image:nth-child(odd),
+.Vertical-image:nth-child(odd) {
   transform: rotate(-3deg);
 }
 
-.Memo-image:nth-child(even) {
+.Memo-image:nth-child(even),
+.Vertical-image:nth-child(even) {
   transform: rotate(3deg);
 }
 
@@ -75,8 +85,56 @@ a {
   width: 450px;
 }
 
+.Next {
+  color: rgb(221, 219, 219);
+  font-size: 120%;
+  text-align: center;
+  transition: all 200ms ease-out;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border: 1px solid rgb(221, 219, 219);
+  padding: 5px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.Next:hover {
+  color: rgb(151, 151, 151);
+  border: 1px solid rgb(151, 151, 151);
+  text-decoration: none;
+}
+
 @media only screen and (max-width: 500px) {
   .Photo-section {
     flex-direction: row;
+  }
+
+  .Page {
+    overflow-x: hidden;
+  }
+
+  .Sub-header {
+    margin: 10px 0;
+    font-size: 190%;
+  }
+
+  .Photo-section {
+    justify-content: center;
+    padding: 50px 30px;
+  }
+
+  .Memo-image {
+    width: 280px;
+    height: 200px;
+  }
+
+  .Memo-caption {
+    margin: 20px 0;
+  }
+
+  .Vertical-image {
+    width: 250px;
+    height: 380px;
+    margin-left: 0px;
   }
 }
