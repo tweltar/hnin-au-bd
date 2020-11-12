@@ -86,7 +86,8 @@ a:hover {
 }
 
 .Carousal-image-vertical {
-  width: 450px;
+  width: 480px;
+  height: 550px;
 }
 
 .Next {
@@ -120,6 +121,11 @@ a:hover {
 @media only screen and (max-width: 500px) {
   .Photo-section {
     flex-direction: row;
+    justify-content: center;
+    margin: 50px 20px;
+    padding-bottom: 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
   }
 
   .Page {
@@ -129,11 +135,6 @@ a:hover {
   .Sub-header {
     margin: 10px 0;
     font-size: 190%;
-  }
-
-  .Photo-section {
-    justify-content: center;
-    padding: 50px 30px;
   }
 
   .Memo-image {
@@ -149,5 +150,10 @@ a:hover {
     width: 250px;
     height: 380px;
     margin-left: 0px;
+  }
+
+  .ForYou-caption {
+    margin-top: 20px;
+    width: 100%;
   }
 }
