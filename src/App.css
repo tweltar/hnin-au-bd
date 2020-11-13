@@ -167,6 +167,28 @@ a:hover {
   width: 50%;
 }
 
+.conclusion {
+  font-family: "Poiret One", cursive;
+  font-size: x-large;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: white;
+}
+
+.feedback {
+  font-family: "Poiret One", cursive;
+  font-size: large;
+  padding: 10px 15px;
+  border: 0.1px solid white;
+  border-radius: 30px;
+  margin-bottom: 50px;
+}
+
+.feedback:hover {
+  border: 0.1px solid gray;
+}
+
 @media only screen and (max-width: 500px) {
   .Photo-section {
     flex-direction: row;
@@ -244,5 +266,13 @@ a:hover {
   .screenshot1 {
     width: 400px;
     height: 500px;
+  }
+
+  .conclusion {
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    color: white;
   }
 }
