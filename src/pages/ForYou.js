@@ -4,12 +4,12 @@ import fav2 from "../assets/fav/fav2.jpg";
 import fav3 from "../assets/fav/fav3.jpg";
 import fav4 from "../assets/fav/fav4.jpg";
 import fav5 from "../assets/fav/fav5.jpg";
-import fav6 from "../assets/fav/fav6.JPG";
+import fav6 from "../assets/fav/fav6.jpg";
 import fav7 from "../assets/fav/fav7.PNG";
 import fav8 from "../assets/fav/fav8.PNG";
 import fav9 from "../assets/fav/fav9.jpg";
 import fav10 from "../assets/fav/fav10.jpg";
-import fav11 from "../assets/fav/fav11.jpeg";
+import fav11 from "../assets/fav/fav11.jpg";
 import { Carousel } from "react-bootstrap";
 import PhotoSectionH from "../components/PhotoSectionH";
 import PhotoSectionV from "../components/PhotoSectionV";
@@ -85,20 +85,10 @@ const ForYou = () => {
           className="Carousal-image-vertical"
         >
           <Carousel.Item>
-            <img
-              className="d-block w-100"
-              style={{ height: "550px" }}
-              src={fav6}
-              alt=""
-            />
+            <img className="d-block w-100" src={fav6} alt="" />
           </Carousel.Item>
           <Carousel.Item>
-            <img
-              className="d-block w-100"
-              style={{ height: "550px" }}
-              src={fav11}
-              alt=""
-            />
+            <img className="d-block w-100" src={fav11} alt="" />
           </Carousel.Item>
         </Carousel>
         <p className="ForYou-caption">
