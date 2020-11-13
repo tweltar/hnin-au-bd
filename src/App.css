@@ -134,6 +134,13 @@ a:hover {
   align-self: center;
 }
 
+.present-description {
+  font-family: "Poiret One", cursive;
+  font-size: x-large;
+  text-align: center;
+  align-self: center;
+}
+
 .Caoursal-screenshot {
   display: flex;
   flex-direction: row;
@@ -186,6 +193,24 @@ a:hover {
 
 .feedback:hover {
   border: 0.1px solid gray;
+}
+
+.video {
+  width: 700px;
+  height: 400px;
+  text-align: center;
+  margin: 50px 0;
+  border-radius: 10px;
+}
+
+.drawing-1 {
+  width: 350px;
+  border-radius: 10px;
+}
+
+.drawing-2 {
+  width: 650px;
+  border-radius: 15px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -265,6 +290,19 @@ a:hover {
   .screenshot1 {
     width: 400px;
     height: 500px;
+  }
+
+  .video {
+    height: 300px;
+  }
+
+  .drawing-1 {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .drawing-2 {
+    width: 400px;
   }
 
   .conclusion {
