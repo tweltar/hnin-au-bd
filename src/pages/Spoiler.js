@@ -136,6 +136,26 @@ const Spoiler = () => {
           </Carousel.Item>
         </Carousel>
       </div>
+      <p className="conclusion">
+        Well, well, well, how was it? Did you notice them? We prepared a google
+        form! Kindly fill and give us feedback xD <br />
+        We hope your 20th birthday was a special one except for covid, and we do
+        hope you love all these things we did for you.
+        <br />
+        Thank you, Au. We love you!
+        <br />
+        Happy Birthday! &#127874;&#128150;
+      </p>
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <a
+          className="feedback"
+          href="https://docs.google.com/forms/d/1qBK27kQUWbnNvgL3QptZ7maXqf-02kwkdh_H6hV0eZk/edit"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Give Feedback
+        </a>
+      </div>
     </div>
   );
 };
