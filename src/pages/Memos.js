@@ -33,6 +33,7 @@ import qua5 from "../assets/quaratine/qua5.jpeg";
 import { Carousel } from "react-bootstrap";
 import SubHeader from "../components/SubHeader";
 import PhotoSectionH from "../components/PhotoSectionH";
+import PhotoSectionV from "../components/PhotoSectionV";
 import Next from "../components/Next";
 
 const Memos = () => {
@@ -72,12 +73,24 @@ const Memos = () => {
       <h1 className="Page-Title">Our Memories</h1>
       <div>
         <SubHeader id="Childhood" text="Childhood Memos" />
-        <PhotoSectionH image={childhood3} text="hello world" odd />
-        <PhotoSectionH image={childhood9} text="hello world" />
-        <div className="Photo-section">
-          <p className="Memo-caption"></p>
-          <img src={childhood1} className="Vertical-image" alt="" />
-        </div>
+        <PhotoSectionH
+          image={childhood3}
+          text="The last day of Grade 9 tuition or idk. Just a random selfie? We were back-benchers ahahah, which means we were chaotic since state school."
+          odd
+        />
+        <PhotoSectionH
+          image={childhood9}
+          text="16/1/2016: Twel’s birthday surprise. It was the very first surprise event in our squad."
+        />
+        <PhotoSectionV
+          image={childhood1}
+          text="Nov 14th, 2016: Your birthday Hang Out. We surprised you with a cake
+          from ice berry. It wasn’t easy. We left you saying we’re going to
+          toilet and bought cake but we found out that there was no candle xD,
+          so we had to go to the nearest convenience store in rush. It was
+          such a great memory."
+          odd
+        />
         <div className="Photo-section">
           <Carousel
             activeIndex={index1}
@@ -85,28 +98,45 @@ const Memos = () => {
             className="Carousal-image"
           >
             <Carousel.Item>
-              <img className="d-block w-100" src={childhood6} alt="" />
+              <img className="d-block w-100" src={childhood8} alt="" />
               <Carousel.Caption className="p-0">
-                <p>description hello hii heyy desu</p>
+                <p style={{ fontFamily: "Nova Mono, monospace", margin: 2 }}>
+                  @Au's home
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img className="d-block w-100" src={childhood7} alt="" />
               <Carousel.Caption className="p-0">
-                <p>description</p>
+                <p style={{ fontFamily: "Nova Mono, monospace", margin: 2 }}>
+                  @Shwe Apple's wearing couple shirts
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
-              <img className="d-block w-100" src={childhood8} alt="" />
+              <img className="d-block w-100" src={childhood6} alt="" />
               <Carousel.Caption className="p-0">
-                <p>description</p>
+                <p style={{ fontFamily: "Nova Mono, monospace", margin: 2 }}>
+                  @Au's home for hilarious selfies
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
-          <p></p>
+          <p className="Memo-caption">
+            Jan 16th, 2017: Twel’s BD We might forget other things but, we won’t
+            forget that day; we wore couple shirts xD. We bought them from 5000
+            kyats store and then we changed into them in Shwe Apple Hotpot's
+            Toilet LoL. Then, we went around Sanchaung wearing couple shirts, we
+            also went to City Mart. Then at your house, we took funny selfies.
+            <span style={{ fontSize: "110%" }}>🤳</span>
+          </p>
         </div>
         <div className="Photo-section">
-          <p></p>
+          <p className="Memo-caption">
+            Probably Oct or Nov of Grade 9, We wore MM costumes because we
+            decided we would wear matching dresses for Thadingyut. All of us
+            looked gorgeous UwU ❤️
+          </p>
           <Carousel
             activeIndex={index}
             onSelect={handleSelect}
@@ -115,23 +145,36 @@ const Memos = () => {
             <Carousel.Item>
               <img className="d-block w-100" src={childhood4} alt="" />
               <Carousel.Caption className="p-0">
-                <p>description hello hii heyy desu</p>
+                <p style={{ fontFamily: "Nova Mono, monospace", margin: 2 }}>
+                  @Daw Saw Myint Tuition
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img className="d-block w-100" src={childhood5} alt="" />
               <Carousel.Caption className="p-0">
-                <p>description</p>
+                <p style={{ fontFamily: "Nova Mono, monospace", margin: 2 }}>
+                  2015 Thadinkyut
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </div>
-        <PhotoSectionH image={childhood2} text="hello world" />
+        <PhotoSectionH
+          image={childhood2}
+          text="JUE’s special edit: It is such a shame that we don't have group
+            photo in our school uniform. But this one is fine tho. ✌🏽"
+        />
       </div>
       <div>
         <SubHeader id="Teenage" text="Teenage Memos" />
         <div className="Photo-section">
-          <p></p>
+          <p className="Memo-caption">
+            June 17th, 2019: We Celebrated Jue's 18th Birthday at Yogane. Jue
+            was surprised by our sprite 😣 Mission accomplished! And we went for
+            the next round to Bonchon keke. We drank strawberry yogurt Soju. Our
+            Birthday celebrations with alcohol started from that day lol 🥂
+          </p>
           <Carousel
             activeIndex={index2}
             onSelect={handleSelect2}
@@ -140,23 +183,42 @@ const Memos = () => {
             <Carousel.Item>
               <img className="d-block w-100" src={Teenage1} alt="" />
               <Carousel.Caption className="p-0">
-                <p>description hello hii heyy desu</p>
+                <p style={{ fontFamily: "Nova Mono, monospace", margin: 2 }}>
+                  @Bonchon
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img className="d-block w-100" src={Teenage2} alt="" />
               <Carousel.Caption className="p-0">
-                <p>description</p>
+                <p style={{ fontFamily: "Nova Mono, monospace", margin: 2 }}>
+                  @Yogane
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </div>
+        <PhotoSectionV
+          image={Teenage16}
+          text="A bottle of Strawberry Yoghurt Soju shared by 4 lol
+          Cheersss!"
+        />
+        <PhotoSectionH
+          image={Teenage6}
+          text="Nov 4th, 2019, @JS We watched 'Now and Ever' skipping our morning classes. It was the earlist and the first ever movie date lol."
+          odd
+        />
+        <PhotoSectionH
+          image={Teenage3}
+          text="Nov 14th, 2019: We celebrated your 19th Birthday at Junction City. We gave you a handmade rose boutique. Mission part one wasn't fully succeeded:(  Then, we had some snacks at food court. Jue faked a phone call from her aunty and went to buy a cake from Season. We surprised with that cake at Lotteria . Mission part two accomplished weeee!!!!"
+        />
         <div className="Photo-section">
-          <img src={Teenage16} className="Vertical-image" alt="" />
-          <p className="Memo-caption"></p>
-        </div>
-        <PhotoSectionH image={Teenage3} text="hello world" odd />
-        <div className="Photo-section">
+          <p className="Memo-caption">
+            We went to the corner bar for the final round. It was halirious that
+            we drank fresh fruit juices at the bar LoL. And you were
+            surprisingly amazed by the "Eggs Box". Mission part three also
+            succeeded!!!! Our surprises are never boring, right? xD
+          </p>
           <Carousel
             activeIndex={index3}
             onSelect={handleSelect3}
@@ -170,7 +232,9 @@ const Memos = () => {
                 alt=""
               />
               <Carousel.Caption className="p-0">
-                <p>description hello hii heyy desu</p>
+                <p style={{ fontFamily: "Nova Mono, monospace", margin: 2 }}>
+                  @JC
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -181,18 +245,35 @@ const Memos = () => {
                 alt=""
               />
               <Carousel.Caption className="p-0">
-                <p>description</p>
+                <p style={{ fontFamily: "Nova Mono, monospace", margin: 2 }}>
+                  @The Corner Bar
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
-          <p></p>
         </div>
-        <PhotoSectionH image={Teenage6} text="hello world" odd />
-        <PhotoSectionH image={Teenage7} text="hello world" />
-        <PhotoSectionH image={Teenage8} text="hello world" odd />
-        <PhotoSectionH image={Teenage9} text="hello world" />
+        <PhotoSectionH
+          image={Teenage7}
+          text="Nov 29th, 2019: @Angel Phoo's Bakery. We wanted to eat rainbow cake, and so it turned out to be a sudden date lol. Chit chat time ❤"
+        />
+        <PhotoSectionH
+          image={Teenage8}
+          text="Jan 16th, 2019 @Pizza Company, DC and Koe Htet Kyee Pagoda. We celebrated Twel's 19th birthday at pizza company. Twel was surprised by our Hong-pong (200 ks per one hong pong) and cake. Hong-pong was a total budget-surprise but, somehow, it was useful for Twel's ybs fees LOL. And then, we went to Koe Htet Kyee Pagoda. It was our first time of going to pagoda together."
+          odd
+        />
+        <PhotoSectionH
+          image={Teenage9}
+          text="June 30th, 2020 @August,Myaynigone. We met for some discussion about our 'Twenties OS' at August. Then, our solo photoshooting session xD. We also went to City Mart to buy some goods for home."
+        />
         <div className="Photo-section">
-          <p></p>
+          <p className="Memo-caption">
+            June 17th, 2020: Jue's Birthday. First, we went to Sulei's home to
+            prepare Memo Book and Cake. Then, we rushed to Jue's home. We're so
+            happy that Jue loves all the surprises - ovaltine sticks, cake,
+            coupon and finally, Memo book
+            <span style={{ fontSize: "100%" }}>❤️</span> For photo-session as
+            ususl, Kyal Kyal helped us.
+          </p>
           <Carousel
             activeIndex={index4}
             onSelect={handleSelect4}
@@ -201,23 +282,37 @@ const Memos = () => {
             <Carousel.Item>
               <img className="d-block w-100" src={Teenage10} alt="" />
               <Carousel.Caption className="p-0">
-                <p>description hello hii heyy desu</p>
+                <p style={{ fontFamily: "Nova Mono, monospace", margin: 2 }}>
+                  @Au's home for hilarious selfies
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img className="d-block w-100" src={Teenage11} alt="" />
               <Carousel.Caption className="p-0">
-                <p>description</p>
+                <p style={{ fontFamily: "Nova Mono, monospace", margin: 2 }}>
+                  @Au's home for hilarious selfies
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </div>
+        <PhotoSectionV
+          image={Teenage17}
+          text="Then, we went to Kann Narr and had one bottles of Spy for 4 ppl!
+            Cheerssss"
+        />
         <div className="Photo-section">
-          <img src={Teenage17} className="Vertical-image" alt="" />
-          <p className="Memo-caption"></p>
-        </div>
-        <div className="Photo-section">
-          <p className="Memo-caption"></p>
+          <p className="Memo-caption">
+            Aug 13th, 2020: Yumi's late late Birthday. We didn't have a chance
+            to meet with her on her birthday. We just sent her Pizza Maru with
+            trishaw (our brain worked 101% LoL) and JoJo mala xia guo. It was
+            Birthday Suprise Part I. So for Part II, we surprised on 'late late
+            Birthday' with Chani's pic on mini cupcakes while we're enjoying our
+            JoJo Hotpot. She really loved it. Part III
+            (one-month-mini-letter-jar by us) was in Music Box. It also
+            succeeded!!! As usual, we went to Time City for our photo-session.{" "}
+          </p>
           <Carousel
             activeIndex={index5}
             onSelect={handleSelect5}
@@ -226,40 +321,73 @@ const Memos = () => {
             <Carousel.Item>
               <img className="d-block w-100" src={Teenage12} alt="" />
               <Carousel.Caption className="p-0">
-                <p>description hello hii heyy desu</p>
+                <p style={{ fontFamily: "Nova Mono, monospace", margin: 2 }}>
+                  @Au's home for hilarious selfies
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img className="d-block w-100" src={Teenage13} alt="" />
               <Carousel.Caption className="p-0">
-                <p>description</p>
+                <p style={{ fontFamily: "Nova Mono, monospace", margin: 2 }}>
+                  @Au's home for hilarious selfies
+                </p>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </div>
-        <div className="Photo-section">
-          <img src={Teenage14} className="Vertical-image" alt="" />
-          <p className="Memo-caption"></p>
-        </div>
-        <div className="Photo-section">
-          <p className="Memo-caption"></p>
-          <img src={Teenage15} className="Vertical-image" alt="" />
-        </div>
+        <PhotoSectionV
+          image={Teenage14}
+          text="@Chill Out, we played some board games. It was so so much fun!!!
+          After that, we went to Au's home and tried hard to take the exact
+          picture like we took in Grade-10 lol"
+        />
+        <PhotoSectionV
+          image={Teenage15}
+          text="Aug 8th, 2020: @Dance Studio. We made our 4-year-old Happiness Dance
+          Project happen, yet we failed :'' You and Sulei danced Naughty cover
+          (First time seeing you dance keke)"
+          odd
+        />
       </div>
       <div>
         <SubHeader id="Quaratine" text="Quaratine Memos" />
-        <div className="Photo-section">
-          <img src={qua1} className="Vertical-image" alt="" />
-          <p className="Memo-caption"></p>
-        </div>
-        <div className="Photo-section">
-          <p className="Memo-caption"></p>
-          <img src={qua2} className="Vertical-image" alt="" />
-        </div>
-        <PhotoSectionH image={qua3} text="hello world" />
-        <PhotoSectionH image={qua4} text="hello world" odd />
-        <PhotoSectionH image={qua5} text="hello world" />
+        <PhotoSectionV
+          image={qua1}
+          text="Our first ever video chat during quaratine!"
+        />
+        <PhotoSectionV
+          image={qua2}
+          text="Another one xD We look like nerds  lol"
+          odd
+        />
+        <PhotoSectionH
+          image={qua3}
+          text="Our first and last chicken dinner xD It was really fun running the whole game lol"
+        />
+        <PhotoSectionH
+          image={qua4}
+          text="Movie night (Enola Holmes) Louis Patridge - definitely chicken soup for our eyes lol"
+          odd
+        />
+        <PhotoSectionH
+          image={qua5}
+          text="Sulei participated in UM1's online fun fair, and we, lovely supportive friends, rooted for her and voted with all of our thousand accounts xD"
+        />
       </div>
+      <p
+        style={{
+          fontFamily: "Nova Mono, monospace",
+          margin: 2,
+          textAlign: "center",
+          fontSize: "larger",
+          margin: "50px",
+        }}
+      >
+        These are just a few random memos, but we all know we have more in our
+        hearts, right?{" "}
+        <span style={{ fontSize: "120%" }}>&#128580;&#128149;</span>
+      </p>
       <Next to="presents" />
     </div>
   );
