@@ -93,6 +93,11 @@ a:hover {
   height: 550px;
 }
 
+.Carousal-caption {
+  font-family: "Nova Mono", monospace;
+  margin: 2px;
+}
+
 .Next {
   color: rgb(221, 219, 219);
   font-size: 120%;
@@ -125,7 +130,9 @@ a:hover {
   .Photo-section {
     flex-direction: row;
     justify-content: center;
-    margin: 50px 20px;
+    margin: 50px 15px;
+    padding: 30px;
+    padding-top: 20px;
     padding-bottom: 20px;
     border: 1px solid whitesmoke;
     border-radius: 10px;
@@ -147,6 +154,8 @@ a:hover {
 
   .Memo-caption {
     margin: 20px 0;
+    font-size: medium;
+    width: 100%;
   }
 
   .Vertical-image {
@@ -158,5 +167,9 @@ a:hover {
   .ForYou-caption {
     margin-top: 20px;
     width: 100%;
+  }
+
+  .Carousal-caption {
+    font-size: small;
   }
 }
