@@ -260,6 +260,10 @@ a:hover {
     font-size: small;
   }
 
+  .present-description {
+    font-size: large;
+  }
+
   .Spoiler-caption {
     font-size: large;
     width: 100%;
