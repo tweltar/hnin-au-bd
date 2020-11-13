@@ -50,16 +50,9 @@ const ForYou = () => {
         >
           <Carousel.Item>
             <img className="d-block w-100" src={fav3} alt="" />
-            <Carousel.Caption className="p-0">
-              <p>description hello hii heyy desu</p>
-            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img className="d-block w-100" src={fav5} alt="" />
-            <Carousel.Caption className="p-0">
-              <h3>hellloooo caption</h3>
-              <p>description</p>
-            </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
       </div>
