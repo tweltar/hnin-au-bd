@@ -201,7 +201,7 @@ const Memos = () => {
         />
         <PhotoSectionH
           image={Teenage3}
-          text="Nov 14th, 2019: We celebrated your 19th Birthday at Junction City. We gave you a handmade rose boutique. Mission part one wasn't fully succeeded:(  Then, we had some snacks at food court. Jue faked a phone call from her aunty and went to buy a cake from Seasons. We surprised with that cake at Lotteria. Mission part two accomplished weeee!!!!"
+          text="Nov 14th, 2019: We celebrated your 19th Birthday at Junction City. We gave you a handmade rose bouquet. Mission part one wasn't fully succeeded:(  Then, we had some snacks at food court. Jue faked a phone call from her aunty and went to buy a cake from Seasons. We surprised with that cake at Lotteria. Mission part two accomplished weeee!!!!"
         />
         <div className="Photo-section">
           <p className="Memo-caption">
