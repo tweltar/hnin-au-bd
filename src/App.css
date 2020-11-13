@@ -40,6 +40,15 @@ a:hover {
   font-size: 230%;
 }
 
+.Page-description {
+  font-family: "Poiret One", cursive;
+  font-size: x-large;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: white;
+}
+
 .Photo-section {
   display: flex;
   flex-direction: row;
@@ -126,6 +135,38 @@ a:hover {
   align-self: center;
 }
 
+.Caoursal-screenshot {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.spoil-photo {
+  width: 600px;
+  height: 280px;
+  margin-top: 30px;
+}
+
+.screenshot {
+  width: 400px;
+  height: 700px;
+}
+
+.screenshot1 {
+  width: 400px;
+  height: 650px;
+}
+
+.Spoiler-caption {
+  font-family: "Poiret One", cursive;
+  font-size: x-large;
+  align-self: center;
+  color: white;
+  width: 50%;
+}
+
 @media only screen and (max-width: 500px) {
   .Photo-section {
     flex-direction: row;
@@ -171,5 +212,37 @@ a:hover {
 
   .Carousal-caption {
     font-size: small;
+  }
+
+  .Spoiler-caption {
+    font-size: large;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .Carousal-screenshot {
+    justify-content: center;
+    margin: 50px 15px;
+    padding: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+  }
+
+  .spoil-photo {
+    width: 300px;
+    height: 160px;
+    margin-top: 30px;
+  }
+
+  .screenshot {
+    width: 400px;
+    height: 550px;
+  }
+
+  .screenshot1 {
+    width: 400px;
+    height: 500px;
   }
 }
