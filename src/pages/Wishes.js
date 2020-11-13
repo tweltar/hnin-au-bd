@@ -17,11 +17,11 @@ const Wishes = () => {
           Happy 20th Birthday! Your 20 journey begins now{" "}
           <span style={{ fontSize: "110%" }}>&#128347;</span> Congratulations
           !!!!! It's hard to believe you are already out of your teen years. We
-          spend 3/4 of our teenage years together. You have grown well and have
-          become a dutiful person both for your parents and for us . And I wish
+          spent 3/4 of our teenage years together. You have grown well and have
+          become a dutiful person both for your parents and for us. And, I wish
           that all of your goals, to be able to stay in a stress-free zone and
-          to always be beside us (dr ka tok nga atwt ngr su tg tr lol), will be
-          achieved. We had our ups and downs but we could pass well by caring
+          to always stay beside us (dr ka tok nga atwt ngr su tg tr lol), will
+          be achieved. We had our ups and downs but we could pass well by caring
           each other. You're the one who can tell my soul to, who can relate to
           me like no one else, who can give energy in my downs, who can share a
           lot of advices, who can know me better than I probably do. I literally
@@ -109,6 +109,41 @@ const Wishes = () => {
         <p className="Twel-letter">
           Dear Au, <br />
           <br />
+          Happy 20th Birthday to you! You have spent two decades of your life
+          pretty well and, from now on, your early adult life begins, dear. ❤️
+          And, I’m very sure that you will walk your twenties’ days confidently
+          and joyfully as you always did. Even when life gives you lemons, you
+          know who you can open up to.
+          <span style={{ fontSize: "90%" }}>&#128521;</span> (Oh, lemons? Just
+          squeeze them lol)
+          <br />
+          <br />
+          Do you know how blessed we are to have a friend like you?{" "}
+          <span style={{ fontSize: "90%" }}>&#128580;</span> You are like ‘Mommy
+          of the squad’ cause you know a lot about cooking, daily life tips and
+          staffs more than we do. You are like a ’Squishy Teddy Bear’ cause you
+          are a cute small little girl (Not anymore nort) I will never get tired
+          of hugging. You are SSS which means you are smart, stylish and sweet
+          xD (no kidding, I mean it{" "}
+          <span style={{ fontSize: "90%" }}>&#128580;&#128150;</span> )<br />
+          <br />
+          20th birthday is a special one, but we can’t meet up cuz of that covid
+          :(( But, don’t be sad, girl. There’s a lot more time to spend together
+          in the future. When that time comes, let’s hang out at each home and
+          ofc, you’re gonna cook for us nor hehe. I can’t wait to try your
+          masterpieces. <br />
+          <br />
+          Well, Au, may your 20th journey be smooth and easy, may you become one
+          precious treasure for your family, may you make life choices correctly
+          with no doubts, may you enjoy every single day of your life (with us
+          pok nor), and may you become a successful dutiful ethical doctor. Oh,
+          I almost forgot. May you become sugar mommy of the squad irl xD We
+          love you xo xo <span style={{ fontSize: "90%" }}>&#128536;</span>
+          <br />
+          <br />
+          Love,
+          <br />
+          Twel
         </p>
       </div>
       <br />
