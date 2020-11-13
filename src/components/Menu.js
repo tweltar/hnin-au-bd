@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import "../css/Menu.css";
 import {
   Drawer,
@@ -8,14 +8,11 @@ import {
   ListItemText,
 } from "@material-ui/core";
 import { Link } from "react-router-dom";
+import MenuContext from "../context/MenuContext";
 
 const Menu = () => {
   const [openMenu, setOpenMenu] = useState(false);
-  const [selectedIndex, setSelectedIndex] = useState(0);
-
-  const handleListItemClick = (event, index) => {
-    setSelectedIndex(index);
-  };
+  const { selectedIndex, handleListItemClick } = useContext(MenuContext);
 
   const toggleDrawer = (open) => (event) => {
     if (
