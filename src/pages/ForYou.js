@@ -30,15 +30,7 @@ const ForYou = () => {
   return (
     <div className="Page">
       <h1 className="Page-Title">Just for You</h1>
-      <p
-        style={{
-          fontFamily: "Poiret One, cursive",
-          fontSize: "x-large",
-          marginTop: "20px",
-          marginBottom: "40px",
-          textAlign: "center",
-        }}
-      >
+      <p className="Page-description">
         We made a collection of our favourite photos of you, Au. A bit cheesy xD
         But, enjoyyyyy <span style={{ fontSize: "95%" }}>&#128150;</span>
       </p>
