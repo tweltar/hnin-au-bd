@@ -106,9 +106,6 @@ const ForYou = () => {
               src={fav6}
               alt=""
             />
-            <Carousel.Caption className="p-0">
-              <p>description hello hii heyy desu</p>
-            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
@@ -117,10 +114,6 @@ const ForYou = () => {
               src={fav11}
               alt=""
             />
-            <Carousel.Caption className="p-0">
-              <h3>hellloooo caption</h3>
-              <p>description</p>
-            </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
         <p className="ForYou-caption">
