@@ -7,15 +7,19 @@
 }
 
 .Jue-paper,
-.Yumi-paper,
 .Twel-paper {
   width: 1000px;
-  height: 900px;
+  height: 1000px;
+}
+
+.Yumi-paper {
+  width: 900px;
+  height: 1400px;
 }
 
 .Jue-letter {
   position: absolute;
-  margin: 130px 25vw;
+  margin: 160px 25vw;
   padding: 10px;
   color: black;
   font-family: "Dancing Script", cursive;
@@ -33,7 +37,7 @@
 
 .Yumi-letter {
   position: absolute;
-  margin: 130px 25vw;
+  margin: 80px 25vw;
   padding: 10px;
   color: black;
   font-family: "Rochester", cursive;
