@@ -359,7 +359,6 @@ const Memos = () => {
       <p
         style={{
           fontFamily: "Nova Mono, monospace",
-          margin: 2,
           textAlign: "center",
           fontSize: "larger",
           margin: "50px",
