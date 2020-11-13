@@ -1,6 +1,7 @@
 import React from "react";
 import present1 from "../assets/present/present1.PNG";
 import present2 from "../assets/present/present2.PNG";
+import Next from "../components/Next.js";
 
 const Presents = () => {
   return (
@@ -90,7 +91,7 @@ const Presents = () => {
           allowFullScreen
         ></iframe>
       </div>
-      https://youtu.be/tWtwoN6AVW0 Video edit 1
+      <Next to="spoiler" />
     </div>
   );
 };
