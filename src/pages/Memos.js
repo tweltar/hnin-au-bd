@@ -368,7 +368,7 @@ const Memos = () => {
         hearts, right?{" "}
         <span style={{ fontSize: "120%" }}>&#128580;&#128149;</span>
       </p>
-      <Next to="presents" />
+      <Next to="foryou" />
     </div>
   );
 };
