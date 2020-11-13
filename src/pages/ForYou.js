@@ -107,7 +107,7 @@ const ForYou = () => {
         cls="ForYou-caption"
         text="The moon and the stars don’t glow as bright as your eyes."
       />
-      <Next to="spoiler" />
+      <Next to="presents" />
     </div>
   );
 };
