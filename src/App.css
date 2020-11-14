@@ -141,7 +141,7 @@ a:hover {
   align-self: center;
 }
 
-.Caoursal-screenshot {
+.Carousal-screenshot {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
@@ -150,8 +150,9 @@ a:hover {
 }
 
 .spoil-photo {
-  width: 600px;
-  height: 280px;
+  width: 500px;
+  height: 250px;
+  border-radius: 10px;
   margin-top: 30px;
 }
 
