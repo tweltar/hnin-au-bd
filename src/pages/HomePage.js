@@ -133,7 +133,7 @@ const HomePage = () => {
           at the end of every page.
           <br />
           <br />
-          Thank you! Now, you may start explore!!!
+          Now, you may start explore!!!
         </p>
       </div>
       <Next to="wishes" />

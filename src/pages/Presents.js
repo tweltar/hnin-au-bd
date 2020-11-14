@@ -107,7 +107,7 @@ const Presents = () => {
           target="_blank"
           rel="noreferrer"
         >
-          Edit Video 2
+          Click here to see Edit Video 2
         </a>
       </div>
       <Next to="spoiler" />

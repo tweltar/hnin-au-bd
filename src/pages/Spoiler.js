@@ -142,7 +142,7 @@ const Spoiler = () => {
         We hope your 20th birthday was a special one except for covid, and we do
         hope you love all these things we did for you.
         <br />
-        Thank you, Au. We love you!
+        We love you, Au!
         <br />
         Happy Birthday! &#127874;&#128150;
       </p>
