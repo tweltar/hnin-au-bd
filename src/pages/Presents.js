@@ -53,7 +53,7 @@ const Presents = () => {
           flexWrap: "wrap",
           justifyContent: "space-around",
           alignItems: "center",
-          marginBottom: "50px",
+          marginBottom: "80px",
         }}
       >
         <img className="drawing-1" src={present1} alt="" />
@@ -77,19 +77,31 @@ const Presents = () => {
       </div>
       <p className="present-description">
         You really like Jeno so much. Well, imagine you were his girlfriend
-        &#128584; and watch these bonus videos for you. hehe
+        &#128584; and watch these bonus videos for you. hehe. We could upload
+        the first video on YT, but the second one got blocked due to copyright.
+        So, we'll just leave the drive link nor &#128535;
       </p>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <iframe
           className="video"
-          title="edit2"
-          width="966"
+          title="edit1"
+          width="866"
           height="604"
           src="https://www.youtube.com/embed/6eiyLxtWwJI"
           frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
+      </div>
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <a
+          className="feedback"
+          href="https://drive.google.com/file/d/1uJvXKUcCPIp9qdPyoveDXZZuHZXuKeQh/view?usp=drivesdk"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Edit Video 2
+        </a>
       </div>
       <Next to="spoiler" />
     </div>
