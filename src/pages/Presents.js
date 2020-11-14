@@ -1,6 +1,9 @@
 import React from "react";
 import present1 from "../assets/present/present1.PNG";
 import present2 from "../assets/present/present2.PNG";
+import cake1 from "../assets/present/cake1.jpeg";
+import cake2 from "../assets/present/cake2.jpeg";
+import cake3 from "../assets/present/cake3.jpg";
 import Next from "../components/Next.js";
 
 const Presents = () => {
@@ -24,7 +27,11 @@ const Presents = () => {
           justifyContent: "space-around",
           alignItems: "center",
         }}
-      ></div>
+      >
+        <img src={cake1} className="cake" alt="" />
+        <img src={cake2} className="cake" alt="" />
+        <img src={cake3} className="cake" alt="" />
+      </div>
       <br />
       <p className="present-description">
         Remember we sang a song for you during zoom meet-up? Here's the video if
