@@ -4,7 +4,7 @@ import fav2 from "../assets/fav/fav2.jpg";
 import fav3 from "../assets/fav/fav3.jpg";
 import fav4 from "../assets/fav/fav4.jpg";
 import fav5 from "../assets/fav/fav5.jpg";
-// import fav6 from "../assets/fav/fav6.jpg";
+import fav6 from "../assets/fav/fav6.jpg";
 import fav7 from "../assets/fav/fav7.PNG";
 import fav8 from "../assets/fav/fav8.PNG";
 import fav9 from "../assets/fav/fav9.jpg";
@@ -85,7 +85,7 @@ const ForYou = () => {
           className="Carousal-image-vertical"
         >
           <Carousel.Item>
-            {/* <img className="d-block w-100" src={fav6} alt="" /> */}
+            <img className="d-block w-100" src={fav6} alt="" />
           </Carousel.Item>
           <Carousel.Item>
             <img className="d-block w-100" src={fav11} alt="" />
